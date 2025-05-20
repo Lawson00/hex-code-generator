@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 70%;
+    height: 50vh;
+    border: 1px solid black;
+    transform: translate(20%, 50%);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+h2{
+    font-weight: 700;
+    margin-bottom: 50px;
+    animation: multiChange infinite 5s;
+}
+
+@keyframes multiChange {
+    0%{
+        color: blue;
+    }
+    20%{
+        color: violet;
+    }
+    40%{
+        color: blueviolet;
+    }
+    60%{
+        color: lightblue;
+    }
+    80%{
+        color: darkblue;
+    }
+    100%{
+        color: pink;
+    }
+}
+
+p{
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+
+button{
+    font-size: larger;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
